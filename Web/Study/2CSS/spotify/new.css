@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    margin: 1;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    gap: 0.6rem;
+}
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width:24.775rem;
+    border-radius: 1rem;
+}
+.nav{
+    background-color: rgb(22,22,22);
+    border-radius: 1rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option{
+    line-height: 1.7rem;
+    padding:0.5rem 0.75rem ;
+    opacity: 0.8;
+}
+.nav .nav-option a{
+    color: white;
+    text-decoration: none;
+}
+.library{
+    background-color: rgb(22, 22, 22);
+    border-radius: 0.71rem;
+    height: 90%;
+    margin-top: 0.5rem;
+}
+.options{
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.7rem;
+}
+.options .lib-options{
+    opacity: 0.5;
+    transition: 1s;
+}
+.options .lib-options a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.options .lib-options img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.options .icon{
+    font-size: 1.25rem;
+    color: white;
+    display: flex;
+
+}
+.options .icon i{
+    margin-right: 1rem;
+    opacity: 0.6;
+}
+.sidebar .library{
+    background-color: rgb(22,22,22);
+    height: calc(100vh - 140px);
+    margin-top: 0.6rem;
+    border-radius: 1rem;
+    padding: 1rem 0.75rem;
+    overflow: scroll;
+}
+.lib-box .box{
+    height: 9rem;
+    background-color: #313131;
+    border-radius: 0.75rem;
+    margin: 0.5rem 0.4rem 1rem ;
+    padding: 0.1rem 1.25rem 0.51rem;
+}
+.box .box-p1{
+    font-weight: 700;
+    color: white;
+    font-size: 1rem;
+}
+.box .box-p2{
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: 300;
+}
+.main-content{
+    background-color: rgb(19,19,19);
+    width: 400px;
+    flex: 1;
+    border-radius: 1rem;
+    padding: 0 1rem 0 0.7rem;
+    overflow: scroll;
+}
+.main-content .sticky-nav{
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.78);
+}
+.music-player {
+    background-color: black;
+    height: 85px;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

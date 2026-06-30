@@ -1,0 +1,1 @@
+document.all[9].innerText = 'Peter';

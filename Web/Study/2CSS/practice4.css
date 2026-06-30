@@ -1,0 +1,25 @@
+*{
+    margin: 10px;
+}
+body {
+    border: 2px solid black;
+}
+#login{
+    background-color: brown;
+    color: white;
+}
+.ne{
+    background-color: hotpink;
+    color: white;
+}
+p a{
+    color: green;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+button:active{
+    background-color: red;
+    color: white;
+}

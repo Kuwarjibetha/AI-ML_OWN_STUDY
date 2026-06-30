@@ -1,0 +1,42 @@
+name: rainwater_harvesting
+description: Smart Rainwater Harvesting Monitoring App - Tracks storage levels and provides data analytics.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase (optional - app works without it in demo mode)
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.17.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # Charts
+  fl_chart: ^0.67.0
+
+  # UI
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.6
+  percent_indicator: ^4.2.3
+
+  # Local Storage
+  shared_preferences: ^2.2.3
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

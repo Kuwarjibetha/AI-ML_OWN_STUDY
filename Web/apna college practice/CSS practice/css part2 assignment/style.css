@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+#mainTopic::first-letter{
+    color: red;
+}
+#mainTopic {
+    color: blue;
+}
+#mainTopic ,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+p:nth-child(odd){
+    background-color: yellow;
+}
+
+input:checked +label{
+    color: darkgreen;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}

@@ -1,0 +1,23 @@
+div{
+    height: 50px;
+    width: 900px;
+    background-color: rgb(220, 184, 220);
+    border: 1px solid green;
+    border-radius: 8px;
+}
+div ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content:left;
+    align-items: center;
+    line-height: 50px;
+}
+div ul li{
+    margin-left: 5px;
+    font-size: 24px;
+    height: 50px;
+    width: 80px;
+   
+
+}

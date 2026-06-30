@@ -1,0 +1,21 @@
+.main{
+    border: 3px solid black;
+    height: 195px;
+    width: 70px;
+}
+.main div {
+    border: 2.1px solid black;
+    height: 50px;
+    width: 50px;
+    margin:8px;
+    border-radius: 50%;
+}
+.main .sibling1{
+    background-color: red;
+}
+.main .sibling2{
+    background-color: yellow;
+}
+.main .sibling3{
+    background-color: green;
+}

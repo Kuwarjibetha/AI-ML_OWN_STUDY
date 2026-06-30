@@ -1,0 +1,83 @@
+[
+  {
+    "sentiment_type": "neutral",
+    "engagement_type": "like",
+    "sentiment_score": 0.1,
+    "topic": "banana emojis",
+    "reason_for_engagement": "The tweet consists of only banana emojis, which is visually appealing and can be interpreted in various ways, leading to engagement.",
+    "engagement_score": 0.5,
+    "keywords": [
+      "banana",
+      "emoji",
+      "yellow",
+      "fruit"
+    ],
+    "target_audience": "General audience",
+    "tweet": "\ud83c\udf4c\ud83c\udf4c\ud83c\udf4c"
+  },
+  {
+    "sentiment_type": "positive",
+    "engagement_type": "retweet",
+    "sentiment_score": 0.8,
+    "topic": "Gemini Pro capabilities",
+    "reason_for_engagement": "The user is retweeting to share information about Gemini Pro's ability to process large amounts of text, indicating a positive reception and interest in this feature.",
+    "engagement_score": 0.91,
+    "keywords": [
+      "Gemini Pro",
+      "text upload",
+      "PDF",
+      "reference",
+      "AI capabilities"
+    ],
+    "target_audience": "AI enthusiasts, tech professionals, students",
+    "tweet": "RT @AiBreakfast: Gemini Pro doesn't get enough credit for being able to upload 1500+ pages of text to reference (several textbooks in PDF f\u2026"
+  },
+  {
+    "sentiment_type": "positive",
+    "engagement_type": "retweet",
+    "sentiment_score": 0.8,
+    "topic": "App Update",
+    "reason_for_engagement": "The user is sharing positive news about an app update with their followers.",
+    "engagement_score": 0.75,
+    "keywords": [
+      "GeminiApp",
+      "Free Weekend",
+      "Veo limits",
+      "expands"
+    ],
+    "target_audience": "Users of GeminiApp",
+    "tweet": "RT @joshwoodward: @GeminiApp Free Weekend expands!\n\nA lot of you asked us to double the Veo limits for the next ~24 hours, let's do it\n\nFre\u2026"
+  },
+  {
+    "sentiment_type": "positive",
+    "engagement_type": "like",
+    "sentiment_score": 0.85,
+    "topic": "Veo 3 free weekend promotion",
+    "reason_for_engagement": "The tweet announces a free weekend trial for Veo 3, encouraging users to create content with it, which is likely to generate excitement and positive reception.",
+    "engagement_score": 0.92,
+    "keywords": [
+      "Veo 3",
+      "free weekend",
+      "try",
+      "create",
+      "promotion"
+    ],
+    "target_audience": "Content creators, videographers, users interested in new camera technology",
+    "tweet": "Veo 3 is now free for the weekend for everyone to try\u00a0 - can\u2019t wait to see what you\u2019ll create!\u00a0\ud83c\udfac https://t.co/vF1lnGMklk"
+  },
+  {
+    "sentiment_type": "neutral",
+    "engagement_type": "retweet",
+    "sentiment_score": 0.1,
+    "topic": "AI efficiency",
+    "keywords": [
+      "AI",
+      "efficiency",
+      "Google",
+      "technical paper",
+      "methodology"
+    ],
+    "target_audience": "AI researchers and practitioners",
+    "tweet": "RT @JeffDean: AI efficiency is important. Today, Google is sharing a technical paper detailing our comprehensive methodology for measuring\u2026"
+  }
+]

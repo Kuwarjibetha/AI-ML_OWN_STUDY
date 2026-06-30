@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt app</title>
+    <style>
+        .card{
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-top:5px;
+            margin-bottom:5px;
+        }
+        .flex{
+        display: flex;
+        gap: 0.4rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <h1>Prompt app</h1>
+        <div class="flex">
+        <input style="flex:1;padding:10px" id="prompt" placeholder="Please enter the prompt" />
+        <button onclick="runPrompt()">Prompt</button>
+        </div>
+    </div>
+    <div class="card" id="tweet_a"></div>
+    <div class="card" id="tweet_b"></div>
+    <div class="card" id="prediction"></div>
+    <div class="card" id="explanation"></div>
+<script>
+    const tweet_a = document.getElementById('tweet_a');
+    const tweet_b = document.getElementById('tweet_b');
+    const prediction = document.getElementById('prediction');
+    const explanation = document.getElementById('explanation');
+    const runPrompt = async() => {
+        const input = document.getElementById('prompt');
+        console.log(input.value);
+        const resp = await fetch(`http://127.0.0.1:5000/generate?prompt=${input.value}`);
+        const data = await resp.json();
+        console.log(data);
+        tweet_a.innerHTML = data.tweet_a;
+        tweet_b.innerHTML = data.tweet_b;
+        prediction.innerHTML = data.prediction;
+        explanation.innerHTML = data.explanation;
+    }
+</script>
+</body>
+</html>

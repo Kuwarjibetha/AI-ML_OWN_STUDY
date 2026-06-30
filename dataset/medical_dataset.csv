@@ -1,0 +1,21 @@
+disease,medicines,duration,tests_required,precautions,specialist,hospital_required,diet_recommendations,exercise_recommendations
+Common Cold,"Paracetamol, Cough syrup",3-7 days,Not necessary,"Rest, fluids, avoid cold",General Physician,No,"Warm fluids, Vitamin C","Light activity, Rest"
+Diabetes,"Metformin, Insulin",Lifelong,"Blood sugar test, HbA1c","Monitor sugar, exercise",Endocrinologist,Yes,"Low sugar, High fiber","Walking, Yoga"
+Influenza,"Oseltamivir, Paracetamol",5-10 days,None,"Avoid contact, rest",General Physician,No,"Hydration, Light meals",Rest
+Asthma,"Salbutamol, Budesonide",Chronic,Spirometry,"Avoid triggers, inhaler",Pulmonologist,Sometimes,Balanced diet,Breathing exercises
+Pneumonia,"Amoxicillin, Azithromycin",2-3 weeks,Chest X-ray,"Rest, hydration",Pulmonologist,Yes,Protein-rich diet,Light movement after recovery
+Tuberculosis,"Isoniazid, Rifampicin",6-12 months,"Chest X-ray, Sputum test","Avoid spread, medications on time",Pulmonologist,Yes,High protein diet,Rest
+Hypertension,"Amlodipine, Losartan",Lifelong,BP monitoring,"Reduce salt, stress management",Cardiologist,Sometimes,"Low salt, Heart-healthy diet","Walking, Yoga"
+Hypotension,"Fludrocortisone, Midodrine",Variable,Blood pressure monitoring,"Increase salt intake, wear compression stockings",Cardiologist,No,"High salt, Small frequent meals",Light activity
+Heart Attack,"Aspirin, Clopidogrel",Weeks to months,"ECG, Blood tests","Avoid smoking, manage stress",Cardiologist,Yes,"Low fat, High fiber","Walking, Cardiac rehabilitation"
+Stroke,"Aspirin, Warfarin",Variable,"CT scan, MRI","Manage blood pressure, avoid smoking",Neurologist,Sometimes,"Low salt, Heart-healthy diet",Physical therapy
+Angina,"Nitroglycerin, Atenolol",Variable,"ECG, Stress test","Avoid heavy meals, manage stress",Cardiologist,Sometimes,"Low fat, High fiber","Walking, Stress management"
+Heart Failure,"Furosemide, Enalapril",Lifelong,"Chest X-ray, ECG","Limit fluid intake, reduce salt",Cardiologist,Yes,"Low salt, High potassium","Walking, Cardiac rehabilitation"
+Arrhythmia,"Amiodarone, Beta blockers",Variable,"ECG, Holter monitor","Avoid stimulants, manage stress",Cardiologist,Sometimes,Balanced diet,Light exercise
+Anemia,"Ferrous sulfate, Vitamin B12",Weeks to months,Blood test,Iron-rich diet,Hematologist,No,Iron-rich foods,Light activity
+Leukemia,Chemotherapy drugs,Months to years,"Blood tests, Bone marrow biopsy","Avoid infections, follow treatment plan",Hematologist,Yes,"High calorie, High protein",Light activity
+Lymphoma,Chemotherapy drugs,Months to years,"Blood tests, Biopsy","Avoid infections, follow treatment plan",Hematologist,Yes,"High calorie, High protein",Light activity
+Malaria,Artemisinin-based combination therapy,2-3 days,"Blood smear, Rapid diagnostic test",Avoid mosquito bites,Infectious disease specialist,Yes,"High calorie, High protein",Light activity
+Dengue,"Paracetamol, Fluids",2-7 days,Blood tests,Avoid mosquito bites,Infectious disease specialist,Sometimes,High fluid intake,Rest
+Typhoid,"Ciprofloxacin, Azithromycin",2-4 weeks,"Blood culture, Widal test",Avoid contaminated food and water,Infectious disease specialist,Yes,"High calorie, High protein",Rest
+Cholera,"Doxycycline, Oral rehydration salts",1-2 days,Stool culture,Avoid contaminated food and water,Infectious disease specialist,Yes,Oral rehydration solutions,Rest

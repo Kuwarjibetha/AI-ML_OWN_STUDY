@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lanstyle.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Sign Up">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Coders</h1>
+            <button>
+                Explore More 
+            </button>
+        </div>
+        <div class="side2">
+            <img src="course.png"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA
+                        </a>
+                    </div>
+                    <p>
+                        DSA stands for Data Structures and Algorithms. It is a fundamental concept in computer science
+                        that involves organizing and manipulating data efficiently (data structures) and devising
+                        step-by-step procedures (algorithms) to solve problems and perform tasks efficiently. Mastery of
+                        DSA is crucial for writing optimized code and is often a key focus in technical interviews for
+                        software development roles.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Python
+                        </a>
+                    </div>
+                    <p>
+                        Python is a high-level, interpreted programming language known for its readability, simplicity,
+                        and versatility. It supports multiple programming paradigms, including procedural,
+                        object-oriented, and functional programming. Python is widely used in web development, data
+                        analysis, artificial intelligence, scientific computing, and more, making it a popular choice
+                        for both beginners and experienced developers.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Java
+                        </a>
+                    </div>
+                    <p>
+                        Java is a high-level, object-oriented programming language designed for portability,
+                        performance, and security. It allows developers to write code that can run on any device
+                        equipped with a Java Virtual Machine (JVM), making it platform-independent. Java is widely used
+                        in web and mobile applications, enterprise software, and large systems development due to its
+                        robustness, scalability, and extensive libraries.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            Araila,Jagdishpur,Bhojpur,Bihar,802158
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Greetings to all the 'Coders' out there!
+                            We welcome you to the platform where we
+                            consistently strive to offer the best
+                            of education. This platform has been
+                            designed for every coder wishing to
+                            expand their knowledge, share their
+                            knowledge and is ready to grab their
+                            dream job. We have millions of articles,
+                            live as well as online courses, thousands
+                            of tutorials and much more just for the
+                            coder inside you.Thank you for choosing
+                            and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By Coders
+            </span>
+        </div>
+    </footer>
+    <script src="lanscript.js">
+        function openNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "50%";
+}
+function closeNavbar() {
+    document.getElementById("sideNavigationBar")
+        .style.width = "0%";
+}
+    </script>
+</body>
+
+</html>

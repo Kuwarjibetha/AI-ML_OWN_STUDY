@@ -1,0 +1,245 @@
+[
+  {
+    "id": "03a354d2-f102-4633-8a18-2dc6c0779db9",
+    "timestamp": "2026-02-13T05:22:30.047759",
+    "event_type": "decision",
+    "node_name": "router",
+    "inputs": {
+      "messages": [
+        "Can you explain how photosynthesis works?"
+      ],
+      "intent": "",
+      "retrieved_context": [],
+      "final_response": "",
+      "metadata": {}
+    },
+    "outputs": {
+      "intent": "chat",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "confidence_score": 0.75,
+        "routing_logic": "keyword_heuristic_mock"
+      }
+    },
+    "metadata": {
+      "model": "gpt-4-turbo-mock",
+      "confidence_score": 0.75,
+      "routing_logic": "keyword_heuristic_mock",
+      "route_decision": "{'intent': 'chat', 'metadata': {'model': 'gpt-4-turbo-mock', 'confidence_score': 0.75, 'routing_logic': 'keyword_heuristic_mock'}}"
+    },
+    "duration_ms": 202.650785446167,
+    "error": null
+  },
+  {
+    "id": "f67e9815-a413-456c-acaa-7cafe01b9cee",
+    "timestamp": "2026-02-13T05:22:31.456974",
+    "event_type": "llm_generation",
+    "node_name": "generate_response",
+    "inputs": {
+      "messages": [
+        "Can you explain how photosynthesis works?"
+      ],
+      "intent": "chat",
+      "retrieved_context": [],
+      "final_response": "",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "confidence_score": 0.75,
+        "routing_logic": "keyword_heuristic_mock"
+      }
+    },
+    "outputs": {
+      "final_response": "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water.",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "latency_ms": 1406.4595689364803,
+        "token_usage": {
+          "prompt_tokens": 9,
+          "completion_tokens": 40,
+          "total_tokens": 49
+        },
+        "confidence_score": 0.92,
+        "finish_reason": "stop"
+      }
+    },
+    "metadata": {
+      "model": "gpt-4-turbo-mock",
+      "latency_ms": 1406.4595689364803,
+      "token_usage": {
+        "prompt_tokens": 9,
+        "completion_tokens": 40,
+        "total_tokens": 49
+      },
+      "confidence_score": 0.92,
+      "finish_reason": "stop"
+    },
+    "duration_ms": 1407.4749946594238,
+    "error": null
+  },
+  {
+    "id": "bce61d31-0df2-450e-9c0e-8d5747a2c84b",
+    "timestamp": "2026-02-13T05:22:31.736849",
+    "event_type": "decision",
+    "node_name": "router",
+    "inputs": {
+      "messages": [
+        "Search for documents about financial aid."
+      ],
+      "intent": "",
+      "retrieved_context": [],
+      "final_response": "",
+      "metadata": {}
+    },
+    "outputs": {
+      "intent": "search",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "confidence_score": 0.9,
+        "routing_logic": "keyword_heuristic_mock"
+      }
+    },
+    "metadata": {
+      "model": "gpt-4-turbo-mock",
+      "confidence_score": 0.9,
+      "routing_logic": "keyword_heuristic_mock",
+      "route_decision": "{'intent': 'search', 'metadata': {'model': 'gpt-4-turbo-mock', 'confidence_score': 0.9, 'routing_logic': 'keyword_heuristic_mock'}}"
+    },
+    "duration_ms": 276.561975479126,
+    "error": null
+  },
+  {
+    "id": "cdac7dc9-8c99-4ca9-99d8-80fe7cb5803b",
+    "timestamp": "2026-02-13T05:22:31.738381",
+    "event_type": "tool_execution",
+    "node_name": "search_docs",
+    "inputs": {
+      "messages": [
+        "Search for documents about financial aid."
+      ],
+      "intent": "search",
+      "retrieved_context": [],
+      "final_response": "",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "confidence_score": 0.9,
+        "routing_logic": "keyword_heuristic_mock"
+      }
+    },
+    "outputs": {
+      "retrieved_context": [
+        "Doc 1: Bridge-it helps students understand Search for documents about financial aid.",
+        "Doc 2: The platform uses AI to guide learning paths.",
+        "Doc 3: Contact support at help@bridge-it.edu for critical issues."
+      ]
+    },
+    "metadata": {},
+    "duration_ms": 0.0059604644775390625,
+    "error": null
+  },
+  {
+    "id": "8efc08c1-d2fa-4a6c-ad34-ba5c235f76f1",
+    "timestamp": "2026-02-13T05:22:32.263537",
+    "event_type": "llm_generation",
+    "node_name": "generate_response",
+    "inputs": {
+      "messages": [
+        "Search for documents about financial aid."
+      ],
+      "intent": "search",
+      "retrieved_context": [
+        "Doc 1: Bridge-it helps students understand Search for documents about financial aid.",
+        "Doc 2: The platform uses AI to guide learning paths.",
+        "Doc 3: Contact support at help@bridge-it.edu for critical issues."
+      ],
+      "final_response": "",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "confidence_score": 0.9,
+        "routing_logic": "keyword_heuristic_mock"
+      }
+    },
+    "outputs": {
+      "final_response": "Here are the top documents found for Financial Aid:\n1. FAFSA Application Guide 2024\n2. Scholarship Opportunities List\n3. Student Loan Repayment Plans",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "latency_ms": 519.1099025859112,
+        "token_usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 55,
+          "total_tokens": 95
+        },
+        "confidence_score": 0.88,
+        "finish_reason": "stop"
+      }
+    },
+    "metadata": {
+      "model": "gpt-4-turbo-mock",
+      "latency_ms": 519.1099025859112,
+      "token_usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 55,
+        "total_tokens": 95
+      },
+      "confidence_score": 0.88,
+      "finish_reason": "stop"
+    },
+    "duration_ms": 524.2650508880615,
+    "error": null
+  },
+  {
+    "id": "2edb809a-3fb7-4826-9e5a-e8b7f26aa62d",
+    "timestamp": "2026-02-13T05:22:32.652086",
+    "event_type": "decision",
+    "node_name": "router",
+    "inputs": {
+      "messages": [
+        "Urgent help needed, I cannot login!"
+      ],
+      "intent": "",
+      "retrieved_context": [],
+      "final_response": "",
+      "metadata": {}
+    },
+    "outputs": {
+      "intent": "escalate",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "confidence_score": 0.85,
+        "routing_logic": "keyword_heuristic_mock"
+      }
+    },
+    "metadata": {
+      "model": "gpt-4-turbo-mock",
+      "confidence_score": 0.85,
+      "routing_logic": "keyword_heuristic_mock",
+      "route_decision": "{'intent': 'escalate', 'metadata': {'model': 'gpt-4-turbo-mock', 'confidence_score': 0.85, 'routing_logic': 'keyword_heuristic_mock'}}"
+    },
+    "duration_ms": 386.0459327697754,
+    "error": null
+  },
+  {
+    "id": "88622ccb-6d12-43c4-abe1-0f35a1a6399f",
+    "timestamp": "2026-02-13T05:22:32.653992",
+    "event_type": "fallback",
+    "node_name": "escalate_to_human",
+    "inputs": {
+      "messages": [
+        "Urgent help needed, I cannot login!"
+      ],
+      "intent": "escalate",
+      "retrieved_context": [],
+      "final_response": "",
+      "metadata": {
+        "model": "gpt-4-turbo-mock",
+        "confidence_score": 0.85,
+        "routing_logic": "keyword_heuristic_mock"
+      }
+    },
+    "outputs": {
+      "final_response": "I see this is urgent. Connecting you to a human support agent..."
+    },
+    "metadata": {},
+    "duration_ms": 0.00476837158203125,
+    "error": null
+  }
+]

@@ -1,0 +1,32 @@
+.main{
+    border: 2px solid rgb(60, 198, 120);
+    margin: 10px;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.main div{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 1.5rem;
+    height: 5em;
+    width: 5em;
+    border-radius: 1em;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.nav{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(224, 150, 255);
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    gap: 10px;
+
+
+}

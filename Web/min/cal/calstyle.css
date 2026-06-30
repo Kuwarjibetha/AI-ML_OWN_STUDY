@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000022;
+    margin: 0;
+
+}
+
+
+
+.calculator {
+    background-color: #000331;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+}
+
+.display {
+    background-color: #034945;
+    color: #fff;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    background-color: #034945;
+    color: #e3e2e2;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #105d6f;
+}
+
+.btn:nth-child(5), .btn:nth-child(10), .btn:nth-child(15), .btn:nth-child(7), .btn:nth-child(10), .btn:nth-child(13)  , .btn:nth-child(6), .btn:nth-child(9), .btn:nth-child(11) , .btn:nth-child(14) {
+    background-color: #583500;
+}
+
+.btn:nth-child(5):hover, .btn:nth-child(10):hover, .btn:nth-child(15):hover, .btn:nth-child(7):hover, .btn:nth-child(10):hover, .btn:nth-child(13):hover, .btn:nth-child(6):hover, .btn:nth-child(9):hover, .btn:nth-child(11):hover, .btn:nth-child(14):hover {
+    background-color: #7c5519;
+}

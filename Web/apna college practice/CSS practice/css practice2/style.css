@@ -1,0 +1,19 @@
+body{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30vw;
+    margin:  10px auto;
+    justify-content: center;
+    align-items: center;
+}
+h1{ 
+    text-align: center;
+    color: #ffa511;
+    font-family: league spartan;
+    font-weight:900;
+    letter-spacing: 2px;
+    line-height: 1.5ex;
+    text-decoration:3px rgb(118, 218, 227) double underline;
+    text-transform: uppercase;
+    
+}

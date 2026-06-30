@@ -1,0 +1,17 @@
+.main{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.main div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 50px;
+}

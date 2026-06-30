@@ -1,0 +1,82 @@
+[
+    {
+        "edit_history_tweet_ids": [
+            "1960340452604785008"
+        ],
+        "text": "\ud83c\udf4c\ud83c\udf4c\ud83c\udf4c",
+        "public_metrics": {
+            "retweet_count": 48,
+            "reply_count": 132,
+            "like_count": 635,
+            "quote_count": 39,
+            "bookmark_count": 21,
+            "impression_count": 22322
+        },
+        "created_at": "2025-08-26T13:55:59.000Z",
+        "id": "1960340452604785008"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1960186246644335104"
+        ],
+        "text": "RT @AiBreakfast: Gemini Pro doesn't get enough credit for being able to upload 1500+ pages of text to reference (several textbooks in PDF f\u2026",
+        "public_metrics": {
+            "retweet_count": 91,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 3
+        },
+        "created_at": "2025-08-26T03:43:14.000Z",
+        "id": "1960186246644335104"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1959425355166445655"
+        ],
+        "text": "RT @joshwoodward: @GeminiApp Free Weekend expands!\n\nA lot of you asked us to double the Veo limits for the next ~24 hours, let's do it\n\nFre\u2026",
+        "public_metrics": {
+            "retweet_count": 228,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 3
+        },
+        "created_at": "2025-08-24T01:19:43.000Z",
+        "id": "1959425355166445655"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1959070813317210260"
+        ],
+        "text": "Veo 3 is now free for the weekend for everyone to try\u00a0 - can\u2019t wait to see what you\u2019ll create!\u00a0\ud83c\udfac https://t.co/vF1lnGMklk",
+        "public_metrics": {
+            "retweet_count": 729,
+            "reply_count": 319,
+            "like_count": 6101,
+            "quote_count": 120,
+            "bookmark_count": 1261,
+            "impression_count": 1023518
+        },
+        "created_at": "2025-08-23T01:50:54.000Z",
+        "id": "1959070813317210260"
+    },
+    {
+        "edit_history_tweet_ids": [
+            "1958560880343593426"
+        ],
+        "text": "RT @JeffDean: AI efficiency is important. Today, Google is sharing a technical paper detailing our comprehensive methodology for measuring\u2026",
+        "public_metrics": {
+            "retweet_count": 832,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 5
+        },
+        "created_at": "2025-08-21T16:04:36.000Z",
+        "id": "1958560880343593426"
+    }
+]

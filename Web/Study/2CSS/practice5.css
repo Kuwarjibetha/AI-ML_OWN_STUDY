@@ -1,0 +1,12 @@
+.main{
+    border: 2px solid black;
+    height: 200px;
+    width: 70px;
+}
+.box{
+    border: 2px solid black;
+    margin: 10px;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+}
