@@ -1,57 +1,67 @@
 # Hand Gesture Controller
 
-Lightweight hand gesture controller using a hand-tracking module.
+This repository contains a hand gesture controller demo located in the `hand gesture controller/` folder.
 
 ## Overview
 
-This project demonstrates a simple setup for tracking hand landmarks and using them to interpret gestures. The repository contains a hand tracking module and a small runner to start the demo.
+The demo uses MediaPipe to detect hand landmarks in webcam video and converts gestures into control actions such as scrolling, cursor movement, and volume adjustment.
 
-## Prerequisites
+## Supported Features
 
-- Python 3.8 or newer
-- A webcam
+- Hand detection and landmark tracking with `mediapipe`
+- Scroll gestures using two or three fingers
+- Volume control using thumb and index finger distance
+- Cursor movement and click actions with hand position
 
 ## Dependencies
 
-Install required packages with pip:
+Install the required packages:
 
 ```bash
-pip install opencv-python mediapipe numpy
+pip install opencv-python mediapipe numpy pyautogui comtypes pycaw
 ```
 
-Or using a virtual environment:
+> Note: `pycaw` and `comtypes` are Windows-specific. Volume control works on Windows only. The webcam tracking and cursor movement still function on macOS, but audio control is not supported outside Windows.
+
+## Installation
+
+Create and activate a virtual environment, then install dependencies:
 
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip install opencv-python mediapipe numpy pyautogui comtypes pycaw
+```
+
+On Windows PowerShell, activate with:
+
+```powershell
+venv\Scripts\Activate.ps1
 ```
 
 ## Usage
 
-Run the main script to start the hand tracking demo:
+Run the demo from the hand gesture controller folder:
 
 ```bash
-python "Main.py"
+cd "hand gesture controller"
+python Main.py
 ```
 
-If your system uses a different camera index, update the camera argument inside `Main.py` accordingly.
+Press `q` to exit the camera window.
 
-## Files
+## Project Files
 
-- `HandTrackingModule.py`: Hand-tracking helper (landmark detection and utilities).
-- `Main.py`: Entry point to run the demo.
-- `tempCodeRunnerFile.py`: Temporary/test code used during development.
+- `hand gesture controller/HandTrackingModule.py` — helper module for hand landmark detection.
+- `hand gesture controller/Main.py` — main application script for gesture recognition and control.
+- `hand gesture controller/tempCodeRunnerFile.py` — temporary development/test script.
 
 ## Notes
 
-- If you see performance issues, try lowering the camera resolution or running on a machine with hardware acceleration.
-- macOS users may need to grant Camera permissions to the terminal/IDE.
+- The demo uses a 640×480 webcam feed by default.
+- If the camera does not open, verify your webcam permissions and that the correct camera index is selected.
+- If performance is slow, lower the resolution or close other applications.
 
 ## License
 
-This project is provided as-is. Add a license file if you intend to share it publicly.
-
-## Contact
-
-Questions or improvements: update the repo or open an issue.
+This project is provided as-is. Add a license file if you want to publish or share the code.
